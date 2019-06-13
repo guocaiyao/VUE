@@ -1,0 +1,6 @@
+//webpack会依赖此配置文件来使用babel编译ES6代码
+{
+  "presets": ["es2015"],
+  "plugins": ["transform-runtime"],
+  "comments": false
+}
